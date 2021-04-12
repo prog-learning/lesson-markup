@@ -1,4 +1,27 @@
+header {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
 .site-title {
-  color: tomato;
-  background-color: #9a9a4f;
+  padding: 10px 20px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+  padding: 0 8px;
+}
+
+header ul li:hover {
+  cursor: pointer;
+  background-color: tomato;
+}
+header ul li:active {
+  background-color: gold;
 }
