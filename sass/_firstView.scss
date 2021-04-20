@@ -1,0 +1,15 @@
+.first-v {
+  color: #eee;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background: linear-gradient(
+      135deg,
+      rgba(0, 0, 200, 0.4),
+      rgba(0, 240, 0, 0.4)
+    ),
+    url(https://picsum.photos/1200/400);
+  background-size: cover;
+}

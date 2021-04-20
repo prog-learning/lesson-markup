@@ -1,0 +1,42 @@
+header {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+header .site-title {
+  padding: 10px 20px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  margin-right: 36px;
+}
+
+header ul li {
+  list-style: none;
+  padding: 0 8px;
+}
+
+header ul li:hover {
+  cursor: pointer;
+  background-color: tomato;
+}
+
+header ul li:active {
+  background-color: gold;
+}
+
+.first-v {
+  color: #eee;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background: linear-gradient(135deg, rgba(0, 0, 200, 0.4), rgba(0, 240, 0, 0.4)), url(https://picsum.photos/1200/400);
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */

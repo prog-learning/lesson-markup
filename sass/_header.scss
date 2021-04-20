@@ -1,0 +1,25 @@
+header {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  .site-title {
+    padding: 10px 20px;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    margin-right: 36px;
+    li {
+      list-style: none;
+      padding: 0 8px;
+      &:hover {
+        cursor: pointer;
+        background-color: tomato;
+      }
+      &:active {
+        background-color: gold;
+      }
+    }
+  }
+}
