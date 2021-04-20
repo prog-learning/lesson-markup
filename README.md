@@ -4,7 +4,7 @@
 
 HTML CSS Sass を使って簡単な Web サイトを作りながら,コーディングの基本を学ぶ
 
-## 流れ
+## メモ
 
 - HTML と CSS
 - GitHub でコードを管理
