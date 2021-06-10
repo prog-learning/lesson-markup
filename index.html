@@ -8,21 +8,29 @@
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/reset.css" />
   <title>lesson markup</title>
+  <script src="https://kit.fontawesome.com/0ef86d6f9b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
-    <h1 class='site-title'>progLearning</h1>
+    <h1 class='site-title'>My progLearning</h1>
     <ul>
-      <li>HOME</li>
-      <li>ABOUT</li>
-      <li>CONTACT</li>
+      <a href='/index.html'>
+        <li>HOME</li>
+      </a>
+      <a href='#about'>
+        <li>ABOUT</li>
+      </a>
+      <a href=''>
+        <li>CONTACT</li>
+      </a>
     </ul>
   </header>
   <div class="first-v">
-    <h2>今すぐプログラミング学習が始められます。</h2>
+    <h2>爆速で、プログラマーへ</h2>
   </div>
   <main>
+    <h2 id='about' class='content-title'>プログラミング学習をはじめました。よろしくお願いします！</h2>
     <div class='content'>
       <div class="card">
         <img src="https://picsum.photos/400/300" alt="">
@@ -51,7 +59,17 @@
       </div>
     </div>
   </main>
-  <footer></footer>
+  <footer>
+    <small>
+      Copyright 2021 progL
+    </small>
+    <a href="#">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="#">
+      <i class="fab fa-github"></i>
+    </a>
+  </footer>
 </body>
 
 </html>
