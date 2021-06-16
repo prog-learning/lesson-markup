@@ -50,20 +50,20 @@ header ul a:active {
 }
 
 .first-v {
-  color: #eee;
-  font-size: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: 400px;
   background: linear-gradient(135deg, rgba(0, 200, 200, 0.4), rgba(0, 240, 0, 0.4)), url(https://picsum.photos/1200/400);
   background-size: cover;
+  position: relative;
+}
+
+.first-v .first-v-content {
+  color: #eee;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .content-title {
@@ -112,6 +112,62 @@ header ul a:active {
 .content .card h3 {
   text-align: center;
   margin: 16px 0 12px;
+}
+
+.form-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-wrapper #contact {
+  margin: 0 auto;
+}
+
+.form-wrapper #contact .contact-title {
+  text-align: center;
+}
+
+.form-wrapper #contact .text-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 8px 0;
+  padding-right: 100px;
+}
+
+.form-wrapper #contact .text-input label {
+  width: 120px;
+  text-align: right;
+}
+
+.form-wrapper #contact .text-input input {
+  width: 70%;
+}
+
+.form-wrapper #contact .content-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-right: 100px;
+}
+
+.form-wrapper #contact .content-form label {
+  width: 120px;
+  text-align: right;
+}
+
+.form-wrapper #contact .content-form textarea {
+  width: 70%;
+}
+
+.form-wrapper #contact button {
+  width: 100%;
 }
 
 footer {

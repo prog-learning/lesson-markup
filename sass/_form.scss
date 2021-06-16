@@ -1,0 +1,38 @@
+.form-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	#contact {
+		margin: 0 auto;
+		.contact-title {
+			text-align: center;
+		}
+		.text-input {
+			display: flex;
+			margin: 8px 0;
+			padding-right: 100px;
+			label {
+				width: 120px;
+				text-align: right;
+			}
+			input {
+				width: 70%;
+			}
+		}
+		.content-form {
+			display: flex;
+			width: 100%;
+			padding-right: 100px;
+			label {
+				width: 120px;
+				text-align: right;
+			}
+			textarea {
+				width: 70%;
+			}
+		}
+		button {
+			width: 100%;
+		}
+	}
+}

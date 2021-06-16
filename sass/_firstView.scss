@@ -1,9 +1,4 @@
 .first-v {
-	color: #eee;
-	font-size: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	height: 400px;
 	background: linear-gradient(
 			135deg,
@@ -12,4 +7,14 @@
 		),
 		url(https://picsum.photos/1200/400);
 	background-size: cover;
+	position: relative;
+
+	.first-v-content {
+		color: #eee;
+		font-size: 40px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 }
